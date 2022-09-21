@@ -5,8 +5,7 @@ const options = {
 		'X-RapidAPI-Host': 'youtube-dl4.p.rapidapi.com'
 	}
 };
-
-fetch('https://youtube-dl4.p.rapidapi.com/fc8c5416b9cfd8fc?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBddP6PYo2gs%26list%3DRDdz3aCNEAVtk%26index%3D3%26ab_channel%3DSonyMusicIndia', options)
+fetch('https://youtube-dl4.p.rapidapi.com/fc8c5416b9cfd8fc?url=https://www.youtube.com/watch?v=vJQMhj6WYZA&list=RDvJQMhj6WYZA&start_radio=1&ab_channel=T-Series', options)
 	.then(response => response.json())
 	.then(response => console.log(response.formats[0].url))
 	.catch(err => console.error(err));
