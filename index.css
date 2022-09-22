@@ -5,11 +5,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 #videoContainer{
-   
     text-align: center;
+   
 }
 .videoSection{
   margin-top: 2%;
+  border:1px solid rgba(145, 136, 136, 0.353);
+  box-shadow: rgb(216, 164, 164) 0px 7px 29px 0px;
+  border-radius: 8px;
+  width: 800px;
+
+  margin-left: 24%;
 }
 #inputLink{
     font-size: 13px;
@@ -21,9 +27,11 @@
     border-radius: 10px;
     border: 2px solid rgb(193, 15, 15);
     background-color: rgba(255, 250, 250, 0.782);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
 }
 #btn{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 1%;
     width: 250px;
     height: 50px;
@@ -37,4 +45,7 @@
     border-style: none;
     font-size: 25px;
     cursor: pointer;
+}
+#btn:hover{
+    background-color:  rgb(173, 12, 12);
 }
